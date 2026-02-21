@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#F8FAFC]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracker</title>
+    <link rel="shortcut icon" href="/briefcase-solid-full.svg" type="image/x-icon">
+
+    <!-- DaisyUI CDN config -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font style config -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"      rel="stylesheet">
+
+    <!-- Font Awesome CDN config -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <style>
+        *{
+            font-family: "Geist", sans-serif;
+            /* background-color: antiquewhite; */
+        }
+     </style>
+
+</head>
+<body class=" w-[1110px] mx-auto mt-[20px]"> 
+
+    <section class="tracker-card ">
+        <div class="font-bold text-[#002C5C] text-3xl">
+            <h1>Job Application Tracker</h1>
+        </div>
+
+        <div class="mt-5 grid grid-cols-3 gap-5 mb-6">
+            <div class=" bg-white p-3 rounded-xl shadow-sm">
+                <p>Total</p>
+                <h1 class="text-[#002C5C] font-bold text-2xl">8</h1>
+            </div>
+            <div class=" bg-white p-3 rounded-xl shadow-sm">
+                <p>Interview</p>
+                <h1 class="text-[#10B981] font-bold text-2xl">0</h1>
+            </div>
+            <div class=" bg-white p-3 rounded-xl shadow-sm">
+                <p>Total</p>
+                <h1 class="text-[#EF4444] font-bold text-2xl">0</h1>
+            </div>
+        </div>
+
+         <hr class="border-[#E6E7E9]">
+
+    </section>
+
+    <section class="middle-part mt-4">
+        <div class="flex justify-between">
+            <div>
+                <h1 class="font-bold text-[#002C5C] text-1xl">Available Jobs</h1>
+            </div>
+            <div>
+                <p class=" text-[#64748B]"><span>0 </span> jobs</p>
+            </div>
+        </div>
+
+        <div class="flex gap-3 mt-4 ">
+            <div><button class="btn px-9 text-[#64748B]">All</button></div>
+        
+            <div><button class=" btn text-[#64748B]">Interview</button></div>
+      
+            <div><button class="btn text-[#64748B]">Rejected</button></div>
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
